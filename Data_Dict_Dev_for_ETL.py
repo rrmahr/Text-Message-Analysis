@@ -1,4 +1,10 @@
 import pickle
+import pandas as pd
+import numpy as np
+import re
+from html.parser import HTMLParser
+from io import StringIO
+
 open_file = open('data.pkl', "rb")
 data = pickle.load(open_file)
 open_file.close()

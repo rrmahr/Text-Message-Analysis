@@ -1,7 +1,9 @@
+import pickle
+open_file = open('data.pkl', "rb")
+data = pickle.load(open_file)
+open_file.close()
+
 # #### Multi-select Multiple Choice Variables
-
-
-
 
 #Create list of QIDs for multi-select variables
 multi_select_range = []
